@@ -4,6 +4,7 @@
   - delete the name and replace with "CSV Downloader"
   - delete the URL and replace it with the bookmarklet text (since you copied it already, just paste it)
   - save the bookmark
+  - place it on your bookmark bar somewhere handy (you may want to turn on always seeing the bookmark bar)
 
 ## Usage:
   - click the bookmarklet while on any Canopy page to prime it
