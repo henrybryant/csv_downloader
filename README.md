@@ -13,5 +13,5 @@
   - confirm the prompt and that table will be automatically downloaded as a CSV
 
 ### Notes:
-- Only works on sites with jquery. Some bookmarklet generators will include jQuery but the bookmarklet in the comment above does not.
+- Only works on sites with jquery. Some bookmarklet generators will include jQuery but this bookmarklet does not.
 - Our more complex tables may be formatted somewhat strangely, but will still be useful for QA (not presenting to customers though)
