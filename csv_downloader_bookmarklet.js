@@ -65,9 +65,9 @@ function exportTableToCSV(table, filename) {
         var row = [], cols = rows[i].querySelectorAll("td, th");
 
         for (var j = 0; j < cols.length; j++)
-            row.push(cols[j].innerText);
+            row.push(cols[j].innerText.replace(/"/g, '""'));
 
-        csv.push(row.join(","));
+        csv.push('"' + row.join('","') + '"');
     }
 
     // Download CSV file
